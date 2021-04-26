@@ -13,9 +13,7 @@ public class Dog {
 
 	public Dog() {}
 
-	public Dog(int id, String kind, int price, String image, String country, int height, int weight, String content,
-			int readcount) {
-		super();
+	public Dog(int id, String kind, int price, String image, String country, int height, int weight, String content) {
 		this.id = id;
 		this.kind = kind;
 		this.price = price;
@@ -24,7 +22,6 @@ public class Dog {
 		this.height = height;
 		this.weight = weight;
 		this.content = content;
-		this.readcount = readcount;
 	}
 
 	public int getId() {

@@ -4,7 +4,7 @@ import java.util.List;
 
 import dog_shoppingMall_proj.dto.Dog;
 
-public interface DogDAO {
+public interface DogDao {
 	List<Dog> selectDogList();
 	
 	Dog selectDog(int id);
